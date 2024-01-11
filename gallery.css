@@ -1,0 +1,43 @@
+#kichwa{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: antiquewhite;
+    border-top-left-radius: 29%;
+    border-top-right-radius: 29%;
+}
+.ONE-DIV{
+    display: flex;
+   
+}
+.ONE-DIV p{
+    gap: 25px;
+}
+.high-pack{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.high-pack img{
+ border-radius: 9%;
+}
+.mguu{
+    /* border: 2px solid blue; */
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    gap: 3rem;
+}
+.first-foot{
+    gap: 13rem;
+}
+.lower-middle-foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-middle-foot{
+    gap: 5rem;
+}

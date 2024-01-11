@@ -1,0 +1,120 @@
+.kichwa{
+
+    height: 150px;
+    font-family: fantasy;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-image: url(shop-1.jpg);
+    background-size: cover; 
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    box-shadow:1px 2px 12px rgba(42, 40, 40, 0.6);
+    color: gold; 
+}
+.breaker{
+    height: 150px;
+    background-color: aliceblue;
+}
+.mwili{
+    display:flex;
+    justify-content: space-around;
+   background-color:  rgb(75, 74, 74);
+}
+.page{
+    border-bottom: 2px solid white;
+    border-radius: 9%;
+}
+.left-pack{
+
+width: 40%;
+background-color: rgb(75, 74, 74);
+
+display: flex;
+margin: -3rem auto 2rem auto;
+justify-content: space-between;
+position: fixed;
+border: 2px solid brown;
+padding: 2px;
+}
+
+.left-pack a{
+    color: rgb(247, 216, 37);
+}
+.left-pack a:active,
+.left-pack a:hover{
+border: 1px solid white;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 9%;
+
+}
+.right-pack{
+    /* border: 2px solid teal; */
+    width: 75%;
+   box-sizing: border-box;
+    list-style: none;
+    box-shadow:1px 1px 12px rgba(0, 0, 0, 0.6) ;
+    border-top-right-radius: 9%;
+    border-top-left-radius: 9%;
+    background-color: antiquewhite;
+    }
+.for-p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+.right-pack img{
+    border-radius: 9%;
+    box-shadow:1px 1px 12px rgba(0, 0, 0, 0.6) ;
+    display: block;
+
+}
+
+.for-p p{
+    border: 2px solid brown;
+    text-align: center;
+    background-color: rgb(61, 53, 53);
+    color: rgb(252, 214, 4);
+   border-bottom-left-radius:9% ; 
+   border-bottom-right-radius:9%;
+   margin: -3rem auto 2rem auto;
+   text-decoration: none;
+}
+.for-p a{
+    text-decoration: none;
+}
+.for-p p:hover,
+.for-p p:active{
+    transform: scale(1.1);
+    text-decoration: none;
+    background: black;
+    color: white;
+    border:1.5px solid  white;
+    border-width: auto;
+    box-sizing: auto;
+}
+.mguu{
+    /* border: 2px solid blue; */
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    gap: 3rem;
+}
+.first-foot{
+    gap: 13rem;
+}
+.lower-middle-foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-middle-foot{
+    gap: 5rem;
+}
